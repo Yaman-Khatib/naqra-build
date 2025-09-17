@@ -33142,13 +33142,13 @@ aSs(){var s=0,r=A.F(t.H)
 var $async$aSs=A.B(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:A.ao("Configuration service initialized")
 A.ao("Backend URL: http://naqra.runasp.net/")
-A.ao("API URL: https://localhost:7279/api")
+A.ao("API URL: http://naqra.runasp.net/api")
 A.ao("Environment: development")
 A.ao("Logging enabled: true")
 A.ao("Debug mode enabled: true")
 return A.D(null,r)}})
 return A.E($async$aSs,r)},
-CC(a){return"https://localhost:7279/api/"+(B.c.bl(a,"/")?B.c.cm(a,1):a)},
+CC(a){return"http://naqra.runasp.net/api/"+(B.c.bl(a,"/")?B.c.cm(a,1):a)},
 tF(a,b){return A.bbh(a,b)},
 bbh(a,b){var s=0,r=A.F(t.Wd),q,p=2,o=[],n,m,l,k,j,i
 var $async$tF=A.B(function(c,d){if(c===1){o.push(d)
